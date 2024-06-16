@@ -1,16 +1,28 @@
 # Hello World Django Project
 
 ## Description
-This is a simple Django project that demonstrates how to set up a project, create an app, configure settings, and create an endpoint that returns "Hello, World!". It also includes a feature to accept a query parameter `name` and return "Hello, [name]!".
+This project is a simple Django application that displays "Hello, World!" or a personalized greeting if a name is specified as a query parameter.
 
-## Setup Instructions
+
 
 ### Prerequisites
 - Python installed on your machine.
 - Django installed (`pip install django`).
 
-### Project Setup
-1. Clone the repository (or download the project files).
+### Project Setup and Run Instructions
+1. download the project files.
 2. Navigate to the project directory.
    ```sh
    cd myproject
+3. Install dependencies
+`pip install -r requirements.txt`
+4. Create the database 
+`python manage.py migrate`
+5. Start the server
+`python manage.py runserver`
+6. Access the application in your web browser
+`http://localhost:8000/hello/`
+or `http://127.0.0.1:8000/hello/?name=Roger`
+
+### Additional Notes
+The `hello_world` endpoint is configured in `urls.py` and `views.py`.
