@@ -10,7 +10,9 @@ This project is a simple Django application that displays "Hello, World!" or a p
 - Django installed (`pip install django`).
 
 ### Project Setup and Run Instructions
-1. download the project files.
+1. Clone the repository: 
+`git clone <https://github.com/roger9696/myproject.git>`
+
 2. Navigate to the project directory.
    ```sh
    cd myproject
